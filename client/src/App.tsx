@@ -15,6 +15,7 @@ export default function App() {
       <Route path="/" element={<Root />}>
         <Route index element={<HomePage />} />
         <Route path="/0" element={<div />} />
+        <Route path="/test" element={<div>ok to test thikk a</div>} />
       </Route>
     )
   );
