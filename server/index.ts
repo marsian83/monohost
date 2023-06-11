@@ -16,6 +16,8 @@ app.use(express.urlencoded());
 
 app.use("/api", indexRouter);
 
+app.get("/", (req, res) => res.redirect("/app"));
+
 app.listen(PORT, () => {
   console.log(`server listening on port ${PORT}`);
 });
