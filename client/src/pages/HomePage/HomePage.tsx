@@ -1,3 +1,10 @@
+import Hero from "./components/Hero";
+
 export default function HomePage() {
-  return <>all ok hai saab</>;
+  return (
+    <>
+      <Hero />
+      all ok hai saab
+    </>
+  );
 }
